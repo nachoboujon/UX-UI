@@ -195,6 +195,14 @@ span {
     margin: 2em 0 3em;
 }
 
+.contact-form {
+    background-color: black;
+}
+
+.contact-me{
+    color:white;
+}
+
 .contact-form h2 {
     text-align: center;
     margin-top: 3em;
@@ -298,3 +306,74 @@ span {
     font-size: 12px;
     color: white;
 }
+
+.projects-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: rgb(3, 59, 200);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border: 2px solid rgb(3, 59, 200);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(3, 59, 200);
+}
+
+.project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(3, 59, 200);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.project-link:hover {
+    background-color: rgb(2, 40, 140);
+    transform: scale(1.05);
+}
+
